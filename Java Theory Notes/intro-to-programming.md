@@ -1,14 +1,14 @@
-/Introduction to Programming Languages/
-What are programming langauges?
+# Introduction to Programming Languages
+## What are programming langauges?
 Programming languages, internally are basically binary instructions(if you go into minutest details).
 They are used to instruct(instructions read and processed by the CPU) a computer to perform a particular task.
 
 
-Why programming languages? Why not simply use the binary instructions?
+## Why programming languages? Why not simply use the binary instructions?
 It is a very difficult task to manually send binary instructions. So to have a human readable format, as well as computer readable architecture, we use programming languages that convert your code(source code) to machine code(binary instructions).
 
 
-Types of programming languages:
+### Types of programming languages:
 
 1. Procedural Language
 They specify a series of well-structured steps and procedures to compose a program.
@@ -17,7 +17,7 @@ What I mean by this is, computer will not say:
 "Input 1st number" ==> "Find sum of 2 numbers" ==> "Input 2nd number"
 This is not procedural/sequential.
 
-Example: C language, all other languages. Since every language follows the procedural format(sudden change/irrational instructions are not executed)
+`Example:` C language, all other languages. Since every language follows the procedural format(sudden change/irrational instructions are not executed)
 
 
 2. Functional Language
@@ -34,7 +34,6 @@ Follow the rule of First Class Functions: reassigning value of a variable to ano
 
 
 3. Object Oriented Programming Language
-
 What is a object?
 Suppose we create a collection of data with roll numbers of all the students...what is the type of the data? Integers(numbers)
 Similarly if we collect the data of all students(with 3 properties: name, roll number, grades)
@@ -52,28 +51,27 @@ Divide a code into various chunks, so that it is easier for us to develop,debug,
 
 Let's say we want to change the type of data in a program; suppose we want to change the steering wheel...we dont change the entire car...we change the object of the car...(in simple terms)
 
-Example: Java and Python
+`Example:` Java and Python
 
 If a particular programming language follows one stereotype, doesnt mean it won't follow the others...
-Java can be both procedural and oop...python can do all
-
-
+Java can be both procedural and oop... python can do all.
 
 Compile meaning: to translate instructions from one computer language into another for a computer to understand
 (source code to machine code)
 
-Static vs Dynamic Languages
+### Static vs Dynamic Languages
 
-Static						Dynamic
-Perform type checking at compile time		Perform type checking at runtime
-Errors will show at compile time		Error might not show till program runs
-Declare datatype before you use it		No need to declare datatype of variables
-More controlled					Saves time in writing code but might give errors at runtime
-int a=10(passed)				a=kunal(passed)
-int a=John(error)				int a=10(passed)
+Static			|			Dynamic
+------------|------------
+Perform type checking at compile time		|  Perform type checking at runtime
+Errors will show at compile time		    |  Error might not show till program runs
+Declare datatype before you use it	|	No need to declare datatype of variables
+More controlled			|		Saves time in writing code but might give errors at runtime
+int a=10(passed)		|		a=kunal(passed)
+int a=John(error)		|		int a=10(passed)
 
 
-Errors in Static Languages
+### Errors in Static Languages
 
 a=10
 a="John"
@@ -86,6 +84,4 @@ But in static languages it will show an error, as we declared the data type to b
 'a' + 10
 Will throw an error in static languages
 
-
-
-/Memory Management/
+# Memory Management
