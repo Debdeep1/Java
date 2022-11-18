@@ -34,19 +34,21 @@ Follow the rule of First Class Functions: reassigning value of a variable to ano
 
 
 3. Object Oriented Programming Language
-What is a object?
-Suppose we create a collection of data with roll numbers of all the students...what is the type of the data? Integers(numbers)
-Similarly if we collect the data of all students(with 3 properties: name, roll number, grades)
-Now this is both a String(text/paragraph type) as well as Integer(number) or Character(grades A B C...)
-This can be taken under custom data type! We can specify these custom data types using classes...
-Classes: Named group of properties and functions...(we'll learn more about classes in the future)
-Class is like a property/template...I am an object of human class; roll number is an object(instance) of the class student!
-If we save int a = 10;  A is the variable, int is the data type/ class and 10 is the object of integer type...
+What is a object? </br>
+Suppose we create a collection of data with roll numbers of all the students...what is the type of the data? Integers(numbers) </br>
+Similarly if we collect the data of all students(with 3 properties: name, roll number, grades) </br>
+Now this is both a String(text/paragraph type) as well as Integer(number) or Character(grades A B C...) </br>
+This can be taken under custom data type! We can specify these custom data types using classes... </br>
+Classes: Named group of properties and functions...(we'll learn more about classes in the future) </br>
+Class is like a property/template...I am an object of human class; roll number is an object(instance) of the class student! </br>
+If we save int a = 10;  A is the variable, int is the data type/ class and 10 is the object of integer type... </br>
+</br>
 
 
-Mainly revolves around objects
-Function(code) + Data = Object
-Divide a code into various chunks, so that it is easier for us to develop,debug,reuse and maintain the software.
+Mainly revolves around objects </br>
+Function(code) + Data = Object </br>
+Divide a code into various chunks, so that it is easier for us to develop,debug,reuse and maintain the software. </br>
+
 
 
 Let's say we want to change the type of data in a program; suppose we want to change the steering wheel...we dont change the entire car...we change the object of the car...(in simple terms)
