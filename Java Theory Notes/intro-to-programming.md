@@ -36,11 +36,17 @@ Follow the rule of First Class Functions: reassigning value of a variable to ano
 3. Object Oriented Programming Language
 What is a object? </br>
 Suppose we create a collection of data with roll numbers of all the students...what is the type of the data? Integers(numbers) </br>
+
 Similarly if we collect the data of all students(with 3 properties: name, roll number, grades) </br>
+
 Now this is both a String(text/paragraph type) as well as Integer(number) or Character(grades A B C...) </br>
+
 This can be taken under custom data type! We can specify these custom data types using classes... </br>
+
 Classes: Named group of properties and functions...(we'll learn more about classes in the future) </br>
+
 Class is like a property/template...I am an object of human class; roll number is an object(instance) of the class student! </br>
+
 If we save int a = 10;  A is the variable, int is the data type/ class and 10 is the object of integer type... </br>
 </br>
 
