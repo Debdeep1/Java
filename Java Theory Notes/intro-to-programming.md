@@ -21,14 +21,14 @@ This is not procedural/sequential.
 
 
 2. Functional Language
-Writing a program only in pure functions or simple modules, i.e. never modify variables(a=10 doesnt become a=Jack), only create new outputs
-Mainly used in situations where we have to consider and perform on lots of different operations on the same set of data.
-Write a block of functions and use/reuse it multiple times to perform different set data.
-Meaning:
-to find sum of 10 pair of numbers.
-Find sum of 1st pair. 
-==> If the code is correct, then reuse the function(block/set of code)to perform same operation on the rest data. 
-==> If the code is incorrect, then you dont have to change it for 10 pairs... just change for 1 pair rest automatically is fixed.
+Writing a program only in pure functions or simple modules, i.e. never modify variables(a=10 doesnt become a=Jack), only create new outputs </br>
+Mainly used in situations where we have to consider and perform on lots of different operations on the same set of data. </br>
+Write a block of functions and use/reuse it multiple times to perform different set data. </br>
+Meaning: </br>
+to find sum of 10 pair of numbers. </br>
+Find sum of 1st pair.
+==> If the code is correct, then reuse the function(block/set of code)to perform same operation on the rest data. </br>
+==> If the code is incorrect, then you dont have to change it for 10 pairs... just change for 1 pair rest automatically is fixed. </br>
 Follow the rule of First Class Functions: reassigning value of a variable to another variable
 (e.g. in python, a=10, b=20, c=b  ==> you are assigning the value of a variable to another variable. This is the property of a first class function. Example of First Class Function language-> Python)
 
