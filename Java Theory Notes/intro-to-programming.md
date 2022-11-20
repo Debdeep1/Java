@@ -92,4 +92,4 @@ But in static languages it will show an error, as we declared the data type to b
 'a' + 10
 Will throw an error in static languages
 
-# Memory Management
+
