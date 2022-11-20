@@ -40,7 +40,7 @@ now if we change a[0] = 99 so now a is also modified which means b will also be 
 - Garbage collection in Java is the process by which Java programs perform automatic memory management. 
 - The main objective of Garbage Collector is to free heap memory by destroying unreachable objects.
 
-### How ot works:
+### How it works:
 Suppose Soumali has a boyfriend and he calls her baby. So baby and Soumali are the same person. Now a new girl comes named "Tanya" and Soumali's bf break up and is now with Tanya and also calles her baby. So now the baby is ponting towards tanya. All the changes made by baby will be modified to the object Tanya. Now Soumali gets upset that she's not the baby anymore and she went to forest and gives up her name. So now there is no soumali. This human is living alone with no name. Now this person is an object with no reference variable. This object (person) will be removed from the memory when 
 garbage collection hits. In java we have something called garbage collection, ie, all the object which doesn't have the reference variable will be removed from the memory automatically. 
 
