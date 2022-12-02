@@ -1,3 +1,4 @@
+## Example 1
 public class program1 </br>
 {		      </br>
 	public static void main(String[]args)  </br>
@@ -37,19 +38,19 @@ Sopln(args[0]);
 E.g.-> System class -> imported into the java program by default as a part of java.lang package
 out-> is a print stream which will print the output as a stream of data values.
 
+## Example 2
 
-
-import java.util.Scanner;
-import java.io.*;
-class Main
-{
-    public static void main(String[]args)
-    {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a name");
-        String name = sc.next(); // sc.nextLine();          
-        System.out.println("Enter a value");
-        int a = sc.nextInt();
-        System.out.println(name+" "+a);
-    }
-}
+import java.util.Scanner;	</br>
+import java.io.*;	</br>
+class Main	</br>
+{	</br>
+    public static void main(String[]args) </br>
+    { </br>
+        Scanner sc = new Scanner(System.in); </br>
+        System.out.println("Enter a name"); </br>
+        String name = sc.next(); // sc.nextLine();          </br>
+        System.out.println("Enter a value"); </br>
+        int a = sc.nextInt(); </br>
+        System.out.println(name+" "+a); </br>
+    } </br>
+} </br>
