@@ -162,5 +162,27 @@ public class Geetings {
 ```
 
 ### Write a program in java to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+```java
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.print("P= ");
+    int P = scan.nextInt();
+
+    System.out.print("R= ");
+    int R = scan.nextInt();
+
+    System.out.print("T= ");
+    int T = scan.nextInt();
+
+    int SI = (P * R * T) / 100;
+
+    System.out.println("SI is " + SI);
+  }
+}
+```
+
 
 
