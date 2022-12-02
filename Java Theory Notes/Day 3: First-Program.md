@@ -121,10 +121,45 @@ class Main
 ____
 # Questions
 ### Write a program in java to input 3 numbers and calulate the sum and average of it.
+```java
+import java.util.Scanner;
+import  java.io.*;
 
+public class program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number");
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number");
+        int num2 = sc.nextInt();
+        System.out.println("Enter 3rd number");
+        int num3 = sc.nextInt();
+
+        System.out.println("Sum = " + (num1+num2+num3));
+        double avg = (num1+num2+num3)/3;
+        System.out.println("Average = " + avg);
+    }
+}
+
+```
 
 ### WAP in java to take name as input and print a greeting message for that particular name.
+```java
+import java.util.Scanner;
+/*
+Input: Soumali
+Output: Good morning, Soumali!
+ */
 
+public class Geetings {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a name");
+        String name = sc.nextLine();
+        System.out.println("Good morning, " + name + "!");
+    }
+}
+```
 
 ### Write a program in java to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
 
