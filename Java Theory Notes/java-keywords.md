@@ -34,7 +34,7 @@ e.g.-> static int a;(static)   &&   int a;(non-static)
  - String[]args-> command line arguements-> These are array type arguements in the form of collection of strings.
 Sopln(args[0]);
 
- - Sopln-> Java developers created some predefined and precompiled functions and classes to perform specific tasks.
+ - System.out.println / System.out.print-> Java developers created some predefined and precompiled functions and classes to perform specific tasks.
 E.g.-> System class -> imported into the java program by default as a part of java.lang package
 out-> is a print stream which will print the output as a stream of data values.
 
