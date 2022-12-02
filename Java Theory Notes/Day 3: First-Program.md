@@ -118,3 +118,14 @@ class Main
     } 
 } 
 ```
+____
+# Questions
+### Write a program in java to input 3 numbers and calulate the sum and average of it.
+
+
+### WAP in java to take name as input and print a greeting message for that particular name.
+
+
+### Write a program in java to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+
+
