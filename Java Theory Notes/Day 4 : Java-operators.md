@@ -41,6 +41,10 @@ The Java left shift operator << is used to shift all of the bits in a value to t
 #### Java Right Shift Operator
 The Java right shift operator >> is used to move the value of the left operand to right by the number of bits specified by the right operand.
 
+### Java Relational Operators: !=, ==, >,<,>=,<= :-
+These operators are used to derive relation between arguments in a statement.
+### Java Logical Operators: &&, ||, ! :- 
+These operators are used to check for a logical relation in a statement
 #### Java AND Operator Example: Logical && and Bitwise &
 The logical && operator doesn't check the second condition if the first condition is false. It checks the second condition only if the first one is true.
 
