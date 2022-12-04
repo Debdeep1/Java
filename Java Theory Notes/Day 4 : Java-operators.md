@@ -188,5 +188,27 @@ int min=(a<b)?a:b;
 System.out.println(min);  
 }}  
 ```
+## Questions
+### Q) int a = 2, b = 3, c = 0; Find c where c = ++a - --b;
+```
+c = 3 - (2) //++a = ++2 -> 3, --b = --3 -> 2 
+c = 1
+```
+### Q) int a = -4, b = 7, c = 0; Find c where c += ++a - b++ -a;
+```
+c = c + ++a - b++ -a
+c = 0 + -3 -7 -(-3) //++a = -3, b-- = first write the value of b and then do b++ -> 8, a = -3
+c = 0 + -3 -7 +3
+c = -7
+```
+ # Homework (do not use any conditionals or loop statements)
+ ___
 
-
+### Q) Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle.
+ ___
+### Q) Suppose the values of variables 'a' and 'b' are 6 and 8 respecrtively, write two programs to swap the values of the two variables. 
+###  1 - first program by using a third variable
+###  2 - second program without using any third variable
+### ( Swapping means interchanging the values of the two variables E.g.- If entered value of x is 5 and y is 10 then after swapping the value of x and y should become 10 and 5 respectively.)
+ ___
+### Q) Write a program to reverse a 3-digit number. E.g.-Number : 132        Output : 231
