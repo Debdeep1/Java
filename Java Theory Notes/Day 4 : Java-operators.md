@@ -9,7 +9,7 @@
 - Relational Operator,
 - Logical Operator,
 - Bitwise Operator,
-- Ternary Operator and
+- Ternary Operator
 
 ```
 
