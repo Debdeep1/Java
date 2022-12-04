@@ -5,12 +5,12 @@
 ```
 - Unary Operator,
 - Arithmetic Operator,
-- Shift Operator,
-- Relational Operator,
-- Bitwise Operator,
-- Logical Operator,
-- Ternary Operator and
 - Assignment Operator.
+- Relational Operator,
+- Logical Operator,
+- Bitwise Operator,
+- Ternary Operator and
+
 ```
 
 ### Java Unary Operator
@@ -33,25 +33,147 @@ System.out.println(--x);//10
 ```
 
 ### Java Arithmetic Operators
-Java arithmetic operators are used to perform addition, subtraction, multiplication, and division. They act as basic mathematical operations.
+> Java arithmetic operators are used to perform addition, subtraction, multiplication, and division. They act as basic mathematical operations.
+> eg: +,-.*,/,%
+```java
+class Main {
+  public static void main(String[] args) {
+    
+    // declare variables
+    int a = 12, b = 5;
 
-#### Java Left Shift Operator
-The Java left shift operator << is used to shift all of the bits in a value to the left side of a specified number of times.
+    // addition operator
+    System.out.println("a + b = " + (a + b));
 
-#### Java Right Shift Operator
-The Java right shift operator >> is used to move the value of the left operand to right by the number of bits specified by the right operand.
+    // subtraction operator
+    System.out.println("a - b = " + (a - b));
+
+    // multiplication operator
+    System.out.println("a * b = " + (a * b));
+
+    // division operator
+    System.out.println("a / b = " + (a / b));
+
+    // modulo operator
+    System.out.println("a % b = " + (a % b));
+  }
+}
+```
+
+### Java Assignment Operator
+> Java assignment operator is one of the most common operators. It is used to assign the value on its right to the operand on its left.
+
+| Operator | Example | Equivalent |
+| :---         |     :---:      |          ---: |
+| =  | a = b |	a = b |
+| += |  a += b | a = a + b |
+| -= |	a -= b | a = a - b |
+| *= |	a *= b |	a = a * b |
+| /= |	a /= b |	a = a / b |
+| %= |	a %= b |	a = a % b |
+
+```java
+class Main {
+  public static void main(String[] args) {
+    
+    // create variables
+    int a = 4;
+    int var;
+
+    // assign value using =
+    var = a;
+    System.out.println("var using =: " + var);
+
+    // assign value using =+
+    var += a;
+    System.out.println("var using +=: " + var);
+
+    // assign value using =*
+    var *= a;
+    System.out.println("var using *=: " + var);
+  }
+}
+```
+
 
 ### Java Relational Operators: !=, ==, >,<,>=,<= :-
-These operators are used to derive relation between arguments in a statement.
+> These operators are used to derive relation between arguments in a statement.
+
+| Operator | Description | Example |
+| :---         |     :---:      |          ---: |
+| ==   | Is Equal To | 3 == 5 returns false |
+| !=    | Not Equal To | 3 != 5 returns true |
+| >    | Greater Than | 3 > 5 returns false |
+| <   | Less Than | 3 < 5 returns true |
+| >=    | Greater Than Equal to | 3 >= 5 returns false |
+| <=    | Less Than Rqual To | 3 <= 5 returns true |
+
+
+```java
+class Main {
+  public static void main(String[] args) {
+    
+    // create variables
+    int a = 7, b = 11;
+
+    // value of a and b
+    System.out.println("a is " + a + " and b is " + b);
+
+    // == operator
+    System.out.println(a == b);  // false
+
+    // != operator
+    System.out.println(a != b);  // true
+
+    // > operator
+    System.out.println(a > b);  // false
+
+    // < operator
+    System.out.println(a < b);  // true
+
+    // >= operator
+    System.out.println(a >= b);  // false
+
+    // <= operator
+    System.out.println(a <= b);  // true
+  }
+}
+```
+- Note: Relational operators are used in decision making and loops.
+
+
 ### Java Logical Operators: &&, ||, ! :- 
-These operators are used to check for a logical relation in a statement
-#### Java AND Operator Example: Logical && and Bitwise &
-The logical && operator doesn't check the second condition if the first condition is false. It checks the second condition only if the first one is true.
+> These operators are used to check for a logical relation in a statement. 
 
-The bitwise & operator always checks both conditions whether first condition is true or false.
+| Logical &&  | Bitwise & |
+| ------------- | ------------- |
+| The logical && operator doesn't check the second condition if the first condition is false. It checks the second condition only if the first one is true.  | The bitwise & operator always checks both conditions whether first condition is true or false. |
 
-#### Java OR Operator Example: Logical || and Bitwise |
-The logical || operator doesn't check the second condition if the first condition is true. It checks the second condition only if the first one is false.
+```java
+class Main {
+  public static void main(String[] args) {
+
+    // && operator
+    System.out.println((5 > 3) && (8 > 5));  // true
+    System.out.println((5 > 3) && (8 < 5));  // false
+
+    // || operator
+    System.out.println((5 < 3) || (8 > 5));  // true
+    System.out.println((5 > 3) || (8 < 5));  // true
+    System.out.println((5 < 3) || (8 < 5));  // false
+
+    // ! operator
+    System.out.println(!(5 == 3));  // true
+    System.out.println(!(5 > 3));  // false
+  }
+}
+```
+#### Java Left Shift Operator
+> The Java left shift operator << is used to shift all of the bits in a value to the left side of a specified number of times.
+
+#### Java Right Shift Operator
+> The Java right shift operator >> is used to move the value of the left operand to right by the number of bits specified by the right operand.
+
 
 ### Java Ternary Operator
 ##### Java Ternary operator is used as one line replacement for if-then-else statement and used a lot in Java programming. It is the only conditional operator which takes three operands.
@@ -67,5 +189,4 @@ System.out.println(min);
 }}  
 ```
 
-### Java Assignment Operator
-##### Java assignment operator is one of the most common operators. It is used to assign the value on its right to the operand on its left.
+
