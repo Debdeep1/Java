@@ -205,10 +205,56 @@ c = -7
  ___
 
 ### Q) Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle.
+ ```java
+ class Ans{
+  public static void main(String[] args){
+    int x = 5
+    int y = 7
+    System.out.println("Area is "+(5*7)+"\nPerimeter is "+(2*(5+7)));
+  }
+}
+```
  ___
 ### Q) Suppose the values of variables 'a' and 'b' are 6 and 8 respecrtively, write two programs to swap the values of the two variables. 
 ###  1 - first program by using a third variable
 ###  2 - second program without using any third variable
 ### ( Swapping means interchanging the values of the two variables E.g.- If entered value of x is 5 and y is 10 then after swapping the value of x and y should become 10 and 5 respectively.)
+
+```java
+import java.io.*;
+ 
+class Geeks {
+ 
+    public static void main(String a[])
+    {
+        int x = 10;
+        int y = 5;
+        x = x + y;
+        y = x - y;
+        x = x - y;
+        System.out.println("After swapping:"
+                           + " x = " + x + ", y = " + y);
+    }
+}
+```
  ___
 ### Q) Write a program to reverse a 3-digit number. E.g.-Number : 132        Output : 231
+
+```java 
+class Ans{
+  public static void main(String[] args){
+    int n, first, second, third, reverse;
+    /*finding the digits of the entered number n*/
+    n = 123;
+    first = n/100;     //first digit
+    n = n%100;
+	
+    second = n/10;     //second digit
+    third = n%10;      //third digit
+	
+    /*reverse number */
+    reverse = third*100 + second*10 + first;
+    System.out.println("reverse number : "+reverse);
+  }
+}
+```
