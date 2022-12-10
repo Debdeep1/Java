@@ -335,10 +335,118 @@ public class NestedSwitchExample {
 
 ```
 
+### Practise Questions
+Q1. WAP in Java to check if a year is leap year or not, using if-else statements.
+```java
+public class Main {
 
+  public static void main(String[] args) {
 
+    // year to be checked
+    int year = 1900;
+    boolean leap = false;
 
+    // if the year is divided by 4
+    if (year % 4 == 0) {
 
+      // if the year is century
+      if (year % 100 == 0) {
+
+        // if year is divided by 400
+        // then it is a leap year
+        if (year % 400 == 0)
+          leap = true;
+        else
+          leap = false;
+      }
+      
+      // if the year is not century
+      else
+        leap = true;
+    }
+    
+    else
+      leap = false;
+
+    if (leap)
+      System.out.println(year + " is a leap year.");
+    else
+      System.out.println(year + " is not a leap year.");
+  }
+}
+```
+___
+Q2. Write a menu driven program to find the area of an Equilateral Triangle, an Isosceles Triangle
+and a Scalene Triangle as per the user’s choice.
+
+1. Equilateral Triangle= √3/4 s2
+
+, s=side of an equilateral triangle
+
+2. Isosceles Triangle= ¼ b*√4a2 – b
+
+3. Scalene Triangle= √s(s-m) (s-n) (s-p), s=m+ n+ p
+(where m, n and p are three sides of a scalene triangle)​
+
+___
+```java
+import java.io.*;
+import java.util.*;
+public class triangle
+
+{
+
+    public static void main(String args[]) throws IOException
+
+    {
+
+       Scanner sc = new Scanner(System.in);
+        int c;
+
+        float a,s,p,q,r,b;
+
+        double area;
+
+        System.out.println("1.Area of equilateral triangle");
+
+        System.out.println("2.Area of isosceles triangle");
+
+        c=sc.nextInt();
+
+        switch(c)
+
+        {
+
+            case 1:
+
+            System.out.println("Enter side of an equilateral triangle");
+
+            s=sc.nextFloat();
+
+            area=Math.sqrt(3*s*s)/4;
+
+            System.out.println("Area="+area);
+
+            break;
+
+            case 2:
+ 
+            System.out.println("Enter the side and base of isosceles triangle");
+
+            a=sc.nextFloat();
+
+            b=sc.nextFloat();
+
+            area=b/4*(Math.sqrt(4*a*a-b*b));
+
+            System.out.println("Area="+area);
+            break;
+            default:
+            System.out.println("Wrong choice ");
+        }
+    }
+}
+```
 
 
 
